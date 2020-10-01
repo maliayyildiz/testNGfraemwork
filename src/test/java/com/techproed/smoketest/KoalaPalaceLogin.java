@@ -17,7 +17,6 @@ public class KoalaPalaceLogin extends TestBase {
         KoalaPalaceLoginPage koalaPalaceLoginPage = new KoalaPalaceLoginPage(driver);
         koalaPalaceLoginPage.username.sendKeys(ConfigReader.getProperty("username"));
         koalaPalaceLoginPage.password.sendKeys(ConfigReader.getProperty("password"));
-         koalaPalaceLoginPage.loginButton.click();
+        koalaPalaceLoginPage.loginButton.click();
     }
-
 }
