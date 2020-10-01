@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class HotelReservationTest extends TestBase {
+public class   HotelReservationTest extends TestBase {
     //Create a clickOnLogin method
     public void clickOnLogin(){
         driver.get("http://www.kaolapalace-qa-environment2.com/");
