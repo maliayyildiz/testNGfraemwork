@@ -18,4 +18,7 @@ public class KoalaDefaultPage {
 
     @FindBy(partialLinkText = "Hotel Rooms")
     public WebElement hotelRooms;
+
+    @FindBy(partialLinkText = "Room reservations")
+    public WebElement hotelReservation;
 }
