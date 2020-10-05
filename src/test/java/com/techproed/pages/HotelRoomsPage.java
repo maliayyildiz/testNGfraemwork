@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-public class HotelRoomsPage extends TestBase{
+public class HotelRoomsPage {
     WebDriver driver;
     public HotelRoomsPage(WebDriver driver){
         this.driver = driver;

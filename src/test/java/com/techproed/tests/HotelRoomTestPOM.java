@@ -17,7 +17,6 @@ import org.testng.annotations.Test;
 public class HotelRoomTestPOM extends TestBase {
     public void koalaLoginTest(){
         driver.get(ConfigReader.getProperty("koala_url"));
-        //driver.get("http://www.kaolapalace.com/");
         KoalaPalaceMainPage koalaPalaceMainPage = new KoalaPalaceMainPage(driver);
         koalaPalaceMainPage.mainPageLoginButton.click();
 
