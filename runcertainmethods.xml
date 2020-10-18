@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="koalasmoke suite" verbose="2">
+    <test name="Regression1" preserve-order="false">
+        <classes>
+
+            <class name="com.techproed.tests.WebTables">
+                <methods>
+                    <include name="printRows" />
+                    <include name="printColumns" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
